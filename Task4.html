@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Task4</title>
+	<style type="text/css">
+	body{
+		margin:0;
+		padding: 0;
+		color:white; 
+	}
+	.header{
+		background-color: rgb(104,205,213);
+		height: 3em;
+		position: relative;
+	}
+	.hleft{
+		position: absolute;
+		top: 50%;
+		left: 1%;
+		transform: translate(0, -50%);
+	}
+	.hmid{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	.hright{
+		position: absolute;
+		top: 50%;
+		right: 1%;
+		transform: translate(0, -50%);
+	}
+	.midtext{
+		border-top: 0.5em solid pink;
+		border-bottom: 0.5em solid pink;
+	}
+	.midmima{
+		border-bottom: 0.5em solid pink;
+	}
+	input{
+		border: 0;
+		outline: none;
+	}
+	.footer{
+		background-color: rgb(104,205,213);
+		height: 4em;
+		position: relative;
+	}
+	.fmid{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	img{
+		vertical-align:middle;
+		border-right: 0.1em solid black;
+		margin:0.1em;
+	}
+	</style>	
+</head>
+<body>
+	<div class="header">
+		<div class="hleft">注册</div>
+		<div class="hmid">登录</div>
+		<div class="hright">关闭</div>
+	</div>
+	<div class="midtext">
+		<img src="C:\Users\Chen-JF\Desktop\images\Task4_01.jpg">
+		<input type="text" name="sjh" placeholder="请输入手机号">
+	</div>
+	<div class="midmima">
+		<img src="C:\Users\Chen-JF\Desktop\images\Task4_02.jpg">
+		<input type="password" name="mm" placeholder="请输入密码">
+	</div>
+	<div class="footer">
+		<div class="fmid">登 录</div>
+	</div>
+	<a href="https://www.baidu.com" style="float: right;">忘记密码</a>
+</body>
+</html>
